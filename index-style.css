@@ -1,0 +1,89 @@
+/* Base reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    body {
+    background: #1a1a2e;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    }
+    
+    header nav {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 30px;
+    background: #16213e;
+    }
+    
+    nav a {
+    color: #e94560;
+    text-decoration: none;
+    font-weight: bold;
+    }
+    
+    nav a:hover {
+    text-decoration: underline;
+    }
+    
+    section {
+    padding: 60px 10%;
+    }
+    
+    h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    }
+    
+    p {
+    margin-bottom: 20px;
+    font-size: 18px;
+    }
+    
+    ul {
+    list-style: none;
+    margin-top: 20px;
+    }
+    
+    ul li {
+    padding: 8px 0;
+    }
+    
+    .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #e94560;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-right: 15px;
+    }
+    
+    .btn:hover {
+    background: #ff2e63;
+    }
+    
+    .project-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    }
+    
+    .project-card {
+    background: #0f3460;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    }
+    
+    footer {
+    text-align: center;
+    padding: 20px;
+    background: #16213e;
+    color: #fff;
+    }
